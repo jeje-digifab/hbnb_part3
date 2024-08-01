@@ -295,32 +295,26 @@ h6 {
 
 h1 {
     font-size: var(--font-size-xx-large);
-    /* Taille plus grande pour h1 */
 }
 
 h2 {
     font-size: var(--font-size-x-large);
-    /* Taille pour h2 */
 }
 
 h3 {
     font-size: var(--font-size-large);
-    /* Taille pour h3 */
 }
 
 h4 {
     font-size: var(--font-size-medium);
-    /* Taille pour h4 */
 }
 
 h5 {
     font-size: var(--font-size-small);
-    /* Taille pour h5 */
 }
 
 h6 {
     font-size: var(--font-size-small);
-    /* Taille pour h6 */
 }
 
 p {
@@ -379,4 +373,42 @@ p {
     background-color: var(--background-secondary);
     color: var(--color-white);
     text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: var(--background-secondary);
+    color: var(--color-white);
+    text-align: center;
+    font-size: var(--font-size-large);
+}
+
+label {
+    font-size: var(--font-size-large);
+}
+
+#email,
+#password,
+#review-text {
+    font-size: var(--font-size-large);
+}
+
+#add-review {
+    text-align: left;
+}
+
+#review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#review-text {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 10px;
+    display: block;
 }
